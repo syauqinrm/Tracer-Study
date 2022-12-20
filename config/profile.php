@@ -138,7 +138,7 @@ require 'functions.php';
                                    </div>
                                    <div class="row align-items-center justify-content-center pt-3 pb-5">
                                         <div class="col-md-6 mt-5" data-aos="fade-left" data-aos-duration="1500">
-                                             <p class="justify-kiri"><b>Teknologi Rekayasa Elektronika (D3)</b>
+                                             <p class="justify-kiri"><b>Teknologi Rekayasa Elektronika (D4)</b>
                                                   Lulusan program ini memiliki kompetensi dalam bidang kontrol elektronik industri, instrumentasi elektronik
                                                   , kontrol dengan micro processor dan elektronika industri, elecommunication dan Information Technolgy (IT).
                                                   Program ini juga diharapkan mencetak lulusan yang mampu untuk merancang rangkaian elektronik untuk pengendalian secara otomatis,

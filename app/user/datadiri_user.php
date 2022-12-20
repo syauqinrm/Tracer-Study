@@ -173,7 +173,7 @@ if (isset($_POST["submit"])) {
                                             <td>:</td>
                                             <td><select name="jurusan_alumni" value="<?= $akunalumni['jurusan_alumni'] ?>" required>
                                                     <option value="-" <?php
-                                                                        ?> select>- Pilih -</option>
+                                                                        ?> select>- Pilih Jurusan -</option>
                                                     <option value="Teknik Elektro" <?php
                                                                                     if ($akunalumni['jurusan_alumni'] == "Teknik Elektro")
                                                                                         echo 'selected' ?>>Teknik Elektro</option>
@@ -195,7 +195,88 @@ if (isset($_POST["submit"])) {
                                         <tr>
                                             <td><label for="prodi_alumni">Program Studi</label></td>
                                             <td>:</td>
-                                            <td><input type="text" name="prodi_alumni" value="<?= $akunalumni['prodi_alumni'] ?>" required></td>
+                                            <td><select name="prodi_alumni" value="<?= $akunalumni['prodi_alumni'] ?>" required>
+                                                    <option value="-" <?php
+                                                                        ?> select>- Pilih Prodi -</option>
+                                                    <option value="D3 Teknik Listrik" <?php
+                                                                                        if ($akunalumni['prodi_alumni'] == "D3 Teknik Listrik")
+                                                                                            echo 'selected' ?>>D3 Teknik Listrik</option>
+                                                    <option value="D4 Teknologi Rekayasa Instalasi Listrik" <?php
+                                                                                                            if ($akunalumni['prodi_alumni'] == "D4 Teknologi Rekayasa Instalasi Listrik")
+                                                                                                                echo 'selected' ?>>D4 Teknologi Rekayasa Instalasi Listrik</option>
+                                                    <option value="D3 Teknik Elektronika" <?php
+                                                                                            if ($akunalumni['prodi_alumni'] == "D3 Teknik Elektronika")
+                                                                                                echo 'selected' ?>>D3 Teknik Elektronika</option>
+                                                    <option value="D4 Teknologi Rekayasa Elektronika" <?php
+                                                                                                        if ($akunalumni['prodi_alumni'] == "D4 Teknologi Rekayasa Elektronika")
+                                                                                                            echo 'selected' ?>>D4 Teknologi Rekayasa Elektronika</option>
+                                                    <option value="D3 Teknik Telekomunikasi" <?php
+                                                                                                if ($akunalumni['prodi_alumni'] == "D3 Teknik Telekomunikasi")
+                                                                                                    echo 'selected' ?>>D3 Teknik Telekomunikasi</option>
+                                                    <option value="D4 Teknik Telekomunikasi" <?php
+                                                                                                if ($akunalumni['prodi_alumni'] == "D4 Teknik Telekomunikasi")
+                                                                                                    echo 'selected' ?>>D4 Teknik Telekomunikasi</option>
+                                                    <option value="D3 Teknik Informatika" <?php
+                                                                                            if ($akunalumni['prodi_alumni'] == "D3 Teknik Informatika")
+                                                                                                echo 'selected' ?>>D3 Teknik Informatika</option>
+                                                    <option value="D4 Teknologi Rekayasa Komputer" <?php
+                                                                                                    if ($akunalumni['prodi_alumni'] == "D4 Teknologi Rekayasa Komputer")
+                                                                                                        echo 'selected' ?>>D4 Teknologi Rekayasa Komputer</option>
+                                                    <option value="D3 Teknik Mesin" <?php
+                                                                                    if ($akunalumni['prodi_alumni'] == "D3 Teknik Mesin")
+                                                                                        echo 'selected' ?>>D3 Teknik Mesin</option>
+                                                    <option value="D4 Teknik Mesin Produksi dan Perawatan" <?php
+                                                                                                            if ($akunalumni['prodi_alumni'] == "D4 Teknik Mesin Produksi dan Perawatan")
+                                                                                                                echo 'selected' ?>>D4 Teknik Mesin Produksi dan Perawatan</option>
+                                                    <option value="D3 Teknik Konversi Energi" <?php
+                                                                                                if ($akunalumni['prodi_alumni'] == "D3 Teknik Konversi Energi")
+                                                                                                    echo 'selected' ?>>D3 Teknik Konversi Energi</option>
+                                                    <option value="D4 Teknologi Rekayasa Pembangkit Energi" <?php
+                                                                                                            if ($akunalumni['prodi_alumni'] == "D4 Teknologi Rekayasa Pembangkit Energi")
+                                                                                                                echo 'selected' ?>>D4 Teknologi Rekayasa Pembangkit Energi</option>
+                                                    <option value="D3 Kontruksi Gedung" <?php
+                                                                                        if ($akunalumni['prodi_alumni'] == "D3 Kontruksi Gedung")
+                                                                                            echo 'selected' ?>>D3 Kontruksi Gedung</option>
+                                                    <option value="D4 Teknik Perawatan dan Perbaikan Gedung" <?php
+                                                                                                                if ($akunalumni['prodi_alumni'] == "D4 Teknik Perawatan dan Perbaikan Gedung")
+                                                                                                                    echo 'selected' ?>>D4 Teknik Perawatan dan Perbaikan Gedung</option>
+                                                    <option value="D3 Kontruksi Sipil" <?php
+                                                                                        if ($akunalumni['prodi_alumni'] == "D3 Kontruksi Sipil")
+                                                                                            echo 'selected' ?>>D3 Kontruksi Sipil</option>
+                                                    <option value="D4 Perancangan Jalan dan Jembatan" <?php
+                                                                                                        if ($akunalumni['prodi_alumni'] == "D4 Perancangan Jalan dan Jembatan")
+                                                                                                            echo 'selected' ?>>D4 Perancangan Jalan dan Jembatan</option>
+                                                    <option value="D3 Akuntansi" <?php
+                                                                                    if ($akunalumni['prodi_alumni'] == "D3 Akuntansi")
+                                                                                        echo 'selected' ?>>D3 Akuntansi</option>
+                                                    <option value="D3 Keuangan dan Perbankan" <?php
+                                                                                                if ($akunalumni['prodi_alumni'] == "D3 Keuangan dan Perbankan")
+                                                                                                    echo 'selected' ?>>D3 Keuangan dan Perbankan</option>
+                                                    <option value="D4 Komputerisasi Akuntansi" <?php
+                                                                                                if ($akunalumni['prodi_alumni'] == "D4 Komputerisasi Akuntansi")
+                                                                                                    echo 'selected' ?>>D4 Komputerisasi Akuntansi</option>
+                                                    <option value="D4 Perbankan Syari'ah" <?php
+                                                                                            if ($akunalumni['prodi_alumni'] == "D4 Perbankan Syari'ah")
+                                                                                                echo 'selected' ?>>D4 Perbankan Syari'ah</option>
+                                                    <option value="D4 Analisis Keuangan" <?php
+                                                                                            if ($akunalumni['prodi_alumni'] == "D4 Analisis Keuangan")
+                                                                                                echo 'selected' ?>>D4 Analisis Keuangan</option>
+                                                    <option value="D4 Akuntansi Manajerial" <?php
+                                                                                            if ($akunalumni['prodi_alumni'] == "D4 Akuntansi Manajerial")
+                                                                                                echo 'selected' ?>>D4 Akuntansi Manajerial</option>
+                                                    <option value="D3 Administrasi Bisnis" <?php
+                                                                                            if ($akunalumni['prodi_alumni'] == "D3 Administrasi Bisnis")
+                                                                                                echo 'selected' ?>>D3 Administrasi Bisnis</option>
+                                                    <option value="D3 Manajemen Pemasaran" <?php
+                                                                                            if ($akunalumni['prodi_alumni'] == "D3 Manajemen Pemasaran")
+                                                                                                echo 'selected' ?>>D3 Manajemen Pemasaran</option>
+                                                    <option value="D4 Manajemen Bisnis Internasional" <?php
+                                                                                                        if ($akunalumni['prodi_alumni'] == "D4 Manajemen Bisnis Internasional")
+                                                                                                            echo 'selected' ?>>D4 Manajemen Bisnis Internasional</option>
+                                                    <option value="D4 Administrasi Bisnis Terapan" <?php
+                                                                                                    if ($akunalumni['prodi_alumni'] == "D4 Administrasi Bisnis Terapan")
+                                                                                                        echo 'selected' ?>>D4 Administrasi Bisnis Terapan</option>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td><label for="alamat">Alamat</label></td>
