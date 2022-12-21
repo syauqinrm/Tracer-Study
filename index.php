@@ -44,7 +44,7 @@
                     <h5 class="text-white">Mari berpartisipasi dalam tracer study <br> Politeknik Negeri Semarang.</h5>
                 </div>
                 <div class="col-md-6 text-center mt-5">
-                    <img src="app/img/web_index.png" width="60%">
+                    <img src="app/img/web_index1.png" width="60%">
                 </div>
             </div>
         </div>
@@ -119,7 +119,7 @@
                 <div class="col-md-3">
                     <div class="card shadow mt-5" style="border-radius: 30px;">
                         <div class="text-center mt-3">
-                            <img src="app/img/2.png" width="20%">
+                            <img src="app/img/2_2.png" width="20%">
                         </div>
                         <div class="card-body text-center">
                             <h5 class="card-title">Informasi</h5>
@@ -132,7 +132,7 @@
                 <div class="col-md-3">
                     <div class="card shadow mt-5" style="border-radius: 30px;">
                         <div class="text-center mt-3">
-                            <img src="app/img/3.png" width="20%">
+                            <img src="app/img/3_3.png" width="20%">
                         </div>
                         <div class="card-body text-center">
                             <h5 class="card-title">Evaluasi</h5>
