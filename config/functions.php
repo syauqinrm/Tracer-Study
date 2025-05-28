@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect("localhost", "root", "", "studytracer");
+$conn = mysqli_connect("mysql", "root", "root", "studytracer");
 
 function query($query)
 {
